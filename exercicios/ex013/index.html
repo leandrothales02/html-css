@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com html5</title>
+</head>
+<body>
+    <h1>inserindo videos hospedados localmente</h1>
+
+    <p>este video esta hospedado no meu proprio servidor</p>
+
+    <!-- <video src="midia/Meu-video.mp4" width="500" height="300" controls></video>-->
+    <!-- forma mais simples de incluir um video-->
+
+    <video  width="560" height="315" controls poster="imagens/thumb.png">
+
+        <source src="midia/Meu-Video.mp4" type="video/mp4">
+        <source src="midia/Meu-Video.webm" type="video/webm">
+    </video>
+    
+    <h1>Inserindo videos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/_tr-jZ6Jd7k" title="YouTube video player" frameborder="0"
+     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+     <h1>Inserindo videos do vimeo</h1>
+
+     <iframe src="https://player.vimeo.com/video/389988325?h=042fdf6152&title=0&byline=0&portrait=0" width="560" height="315" frameborder="0"
+     allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+     <!-- os videos hospedados externamente sao colocados no codigo copiando o seu link ao incorporar-->
+
+</body>
+</html>
